@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AcostaCarlos-EC2</string>
+    <string name="title_registro">REGISTRO</string>
+    <string name="val_formulario">FORMULARIO</string>
+    <string name="val_listado">LISTADO</string>
+    <string name="val_registro">REGISTRO</string>
+    <string name="title_text">CUESTIONARIO COVID-19</string>
+    <string name="val_pg1">1. Marca tus síntomas.</string>
+    <string name="val_pg2">2. ¿Tienes fiebre mayor a 37 grados?</string>
+    <string name="val_pg3">3. ¿Vives solo en casa?</string>
+    <string name="val_pg4">4. ¿Vives con un adulto mayor en casa?</string>
+    <string name="val_pg5">5. ¿Cuentas con los siguientes servicios en casa?</string>
+    <string name="cb01">Disminución del gusto o del olfato</string>
+    <string name="cb02">Tos</string>
+    <string name="cb03">Dolor de garganta</string>
+    <string name="cb04">Congestión nasal</string>
+    <string name="cb05">Fiebre</string>
+    <string name="cb06">Ninguno</string>
+    <string name="valrb2si">SI</string>
+    <string name="valrb2no">NO</string>
+    <string name="valrb3si">SI</string>
+    <string name="valrb3no">NO</string>
+    <string name="valrb4no">NO</string>
+    <string name="valrb4si">SI</string>
+    <string name="valcb10">Luz</string>
+    <string name="valcb11">Agua</string>
+    <string name="valcb12">Internet</string>
+    <string name="valcb13">Cable</string>
+    <string name="val_resolver">RESOLVER</string>
+</resources>

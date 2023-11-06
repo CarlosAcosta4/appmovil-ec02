@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cb13"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuestionarioActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title_text"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05109489" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="390dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/val_pg1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/val_pg2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/val_pg3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/rg2" />
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/rb2si"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valrb2si" />
+
+        <RadioButton
+            android:id="@+id/rb2no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valrb2no" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/val_pg4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/rg3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/val_pg5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/rg4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <CheckBox
+            android:id="@+id/cb01"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="@string/cb01" />
+
+        <CheckBox
+            android:id="@+id/cb02"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="@string/cb02" />
+
+        <CheckBox
+            android:id="@+id/cb03"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/cb03" />
+
+        <CheckBox
+            android:id="@+id/cb04"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/cb04" />
+
+        <CheckBox
+            android:id="@+id/cb05"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/cb05" />
+
+        <CheckBox
+            android:id="@+id/cb06"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/cb06" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="305dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/rb3si"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valrb3si" />
+
+        <RadioButton
+            android:id="@+id/rb3no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valrb3no" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <RadioButton
+            android:id="@+id/rb4si"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:text="@string/valrb4si" />
+
+        <RadioButton
+            android:id="@+id/rb4no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valrb4no" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <CheckBox
+            android:id="@+id/cb10"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/valcb10" />
+
+        <CheckBox
+            android:id="@+id/cb11"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/valcb11" />
+
+        <CheckBox
+            android:id="@+id/cb12"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/valcb12" />
+
+        <CheckBox
+            android:id="@+id/cb14"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/valcb13" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnresolver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/color_hospital"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/val_resolver"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
